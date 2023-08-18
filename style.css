@@ -4,18 +4,54 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: center;
   justify-content: center;
   align-items: center;
+  width: 70vw;
+  height: 70vw; 
   }
    
-.icon-button {
-  background-image: url(GAME/icon/new.png);
-  background-size: 90px 98px;
-}
+
 .wrapper {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.innerButton {
+  position: absolute;
+  display: flex;
+  flex-direction: column
+}
+.new-game {
+text-transform: uppercase;
+}
+.roll-dice {
+  text-transform: uppercase;
+}
+.hold {
+text-transform: uppercase;  
+}
+
+.dice {
+width: 100px;
+}
+.dice img {
+  max-width: 100%;
+}
+.player {
+  width: 50%;
+  background-color: rgb(190, 22, 154);
+  height: 90%;
+}
+.player__name {
+  text-align: center;
+}
+.new-game {
+  border-radius: 10px;
+}
+.roll-dice {
+  border-radius: 10px;
+}
+.hold {
+  border-radius: 10px;
 }
